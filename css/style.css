@@ -14,7 +14,7 @@ body {
 .header-img {
     position: relative;
     height: 250px;
-    background-image: url(/img/macarons_1920.jpg);
+    background-image: url(/image/macarons-1920.jpg);
     background-repeat: no-repeat;
     background-position: 57% 49%;
 }
@@ -65,5 +65,86 @@ nav li {
 }
 
 nav li:hover {
+    color: rgb(214, 196, 159);
+}
+
+/* MAIN */
+
+main {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(136, 175, 74, 0.8);
+}
+
+main section {
+    margin: 30px 0;
+    
+}
+
+.main-section {
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-text {
+    position: absolute;
+    padding: 20px 40px;
+    bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(250, 248, 244);
+    text-shadow: 2px 3px 2px black;
+    z-index: 1;
+}
+
+.main-gb {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-color: rgba(232, 238, 227, 0.5);
+}
+
+.top {
+    background-image: url(/image/macarons.jpg);
+}
+
+.middle {
+    background-image: url(/image/img-main-middle.jpg);
+}
+
+.bottom {
+    background-image: url(/image/img-main.jpg);
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    background-color: rgb(226, 221, 216);
+    color: rgba(136, 175, 74, 0.8);
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+.footer-icon i {
+    margin: 20px 8px;
+    padding: 0 5px;
+    font-size: 28px;
+    transition: color .3s;
+}
+
+.footer-icon i:hover {
     color: rgb(214, 196, 159);
 }
