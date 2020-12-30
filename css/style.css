@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(216, 211, 211);
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 250px;
+    background-image: url(/img/macarons_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: 57% 49%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-90%, -50%);
+    padding: 10px;
+    color: rgb(250, 248, 244);
+    text-shadow: 2px 3px 2px black;
+    font-weight: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+.header-bg {
+    width: 100%;
+    height: 100%;
+}
+
+/* NAV */
+
+nav {
+    height: 40px;
+    background-color: rgb(226, 221, 216);
+    text-align: center;
+    line-height: 24px;
+    font-size: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 30px;
+    color: rgba(136, 175, 74, 0.8);
+    list-style: none;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+nav li:hover {
+    color: rgb(214, 196, 159);
+}
