@@ -8,25 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-
-    <header>
-        <div class="header-img">
-            <div class="header-text">
-            <h1>healthy sweets</h1>
-            <p>Life is short, eat!</p>
-            </div>
-             <div class="header-bg"></div>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li>O nas</li>
-            <li>Przepisy</li>
-            <li>Kontakt</li>
-        </ul>
-    </nav>
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="nav.html"></div>
+    
 
     <main>
         <h2 class="main-heading">O nas</h2>
@@ -42,17 +28,14 @@
             <p class="main-text">Przepisy, do których składniki masz w swojej kuchni!</p>
             <div class="main-gb"></div>
         </section>
-        
+    </main>
 
-    <footer>
-        <div class="footer-icon">
-            <i class="fas fa-envelope"></i>
-            <i class="fas fa-mobile-alt"></i>
-        </div>
-        <p>Healthy Sweets. Wszystkie prawa zastrzeżone.</p>
-    </footer>
+    <div w3-include-html="footer.html"></div>
+    <script src="/js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
 
 </body>
 </html>
 
-</main>

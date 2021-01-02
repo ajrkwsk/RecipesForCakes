@@ -52,7 +52,7 @@ nav {
     font-size: 0;
 }
 
-nav li {
+.nav a, .nav li {
     display: inline-block;
     padding: 5px 30px;
     color: rgba(136, 175, 74, 0.8);
@@ -64,7 +64,7 @@ nav li {
     transition: color .3s;
 }
 
-nav li:hover {
+nav a:hover {
     color: rgb(214, 196, 159);
 }
 
@@ -123,6 +123,50 @@ main section {
 
 .bottom {
     background-image: url(/image/img-main.jpg);
+}
+
+
+/* RECIPE */
+
+main {
+    width: 70%;
+}
+
+.recipes-list li {
+    margin: 25px auto;
+    font-weight: bold;
+}
+
+.recipes-text {
+    margin-right: 50px;
+    margin-bottom: 120px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+h4 {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+section img {
+    float: right;
+    margin: 20px 0 0 15px;
+}
+
+.oatmeal {
+    width: 320px;
+    height: auto;
+}
+
+.omelette {
+    width: 400px;
+    height: auto;
 }
 
 /* FOOTER */
