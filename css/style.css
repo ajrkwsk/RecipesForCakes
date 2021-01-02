@@ -173,6 +173,31 @@ section img {
     height: auto;
 }
 
+/* CONTACT */
+
+.contact {
+    margin-top: 25px;
+}
+
+div input, textarea {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(194, 194, 184);
+    cursor: text;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    transition: border-color .3s;
+}
+
+div input:hover, textarea:hover {
+    border-color: rgb(188, 190, 183)
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 /* FOOTER */
 
 footer {
