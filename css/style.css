@@ -132,9 +132,16 @@ main {
     width: 70%;
 }
 
-.recipes-list li {
+.recipes-list a, .recipes-list li {
     margin: 25px auto;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: color .3s;
+}
+
+.recipes-list a:hover {
+    color: rgb(102, 80, 93);
 }
 
 .recipes-text {
@@ -157,9 +164,6 @@ h4 {
 section img {
     float: right;
     margin: 20px 0 0 15px;
-}
-
-.oatmeal {
     width: 320px;
     height: auto;
 }
