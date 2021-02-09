@@ -9,12 +9,16 @@ body {
     background-color: rgb(216, 211, 211);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 .header-img {
     position: relative;
     height: 250px;
-    background-image: url(/image/macarons-1920.jpg);
+    background-image: url('../image/macarons-1920.jpg');
     background-repeat: no-repeat;
     background-position: 57% 49%;
 }
@@ -115,15 +119,15 @@ main section {
 }
 
 .top {
-    background-image: url(/image/macarons.jpg);
+    background-image: url('../image/macarons.jpg');
 }
 
 .middle {
-    background-image: url(/image/img-main-middle.jpg);
+    background-image: url('../image/img-main-middle.jpg');
 }
 
 .bottom {
-    background-image: url(/image/img-main.jpg);
+    background-image: url('../image/img-main.jpg');
 }
 
 
@@ -134,9 +138,11 @@ main {
 }
 
 .recipes-list img {
-    width: 320px;
-    height: 400px;
+    position: relative;
+    width: 30%;
+    height: 450px;
     margin: 25px 0 35px 3px;
+    left: 5%;
     transition: border .3s, border-radius .3s;
 }
 
@@ -203,15 +209,13 @@ div input:hover, textarea:hover {
 
 footer {
     height: 100px;
+    font-size: 14px;
     text-align: center;
+    line-height: 100px;
     background-color: rgb(226, 221, 216);
     color: rgba(11, 12, 11, 0.8);
 }
-
-footer p {
-    font-size: 12px;
-}
-
+/* 
 .footer-icon i {
     margin: 20px 8px;
     padding: 0 5px;
@@ -221,4 +225,4 @@ footer p {
 
 .footer-icon i:hover {
     color: rgb(177, 190, 139);
-}
+} */
